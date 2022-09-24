@@ -180,9 +180,8 @@ textarea{
 	font-family: "Minha Fonte";
 }
 .produto-botao:hover{
-	width: 110%;
+	width: 105%;
 	font-size: 38px;
-
 }
 .container img {
  width:30vh;
@@ -254,6 +253,7 @@ textarea{
 .anima img:hover{
 	width: 105%;
 	height: 105%;
+	margin-bottom: auto;
 }
 .anima img{
 	transition: all 0.6s ease-in-out;
