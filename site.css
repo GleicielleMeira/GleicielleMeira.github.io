@@ -1,0 +1,272 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+@font-face {
+	font-family: "Minha Fonte";
+	src: url(fontes/LuckiestGuy-Regular.ttf);
+}
+body{
+	background-color:#19252F;
+	color:white;
+	height:2500px;
+	display: block;
+}
+nav{
+	
+}
+#pesquisa{
+	grid-column:2/3;
+
+}
+#procura{
+	width:35vw;
+	height:30px;
+	
+	
+}
+#lupa{
+	background-color: white;
+	height:15px;
+	
+	
+}
+#login{
+	background-color:#C49B05;
+	display:flex;
+	height:70px;
+	width:140px;
+	grid-column:3/4;
+	
+}
+#msglogin{
+	color:black;
+	
+}
+#imglogin{
+	height:50px;
+}
+#menu2{
+	display:grid;
+	grid-template-columns:35% 40% 12% 13%;
+	background-color:#222020;
+	height:100px;
+	justify-items:center;
+	align-items:center;
+
+	
+	
+}
+
+#carrinho{
+	background-color:#C49B05;
+	display:flex;
+	height:70px;
+	width:140px;
+	grid-column:4/5;
+}
+#msgcar{
+	color:black;
+	
+}
+#menu1{
+	display:flex;
+    justify-content:center;
+	
+}
+#banner{
+	width:100%;
+	
+}
+#categorias{
+
+
+}
+main{
+	padding-left:50px;
+	padding-right:50px;
+	
+}
+#marcas {
+	    
+	height:70px;
+	width:100%;
+	background-color:#C49B05;
+	display:flex;
+	justify-content:space-around;
+	padding-right:10px;
+
+	
+}
+form{
+    margin:0 auto;
+    width:800px;
+    padding:1em;
+    border:1px solid #CCC;
+    border-radius:1em;
+}
+input,textarea {
+    
+    font:1em sans-serif;
+	width:300px;
+    box-sizing:border-box;
+    border:1px solid #999;
+}
+textarea{
+	vertical-align:top;
+	height:5em;
+	resize:vertical;
+}
+	
+#procurados{
+	display:flex;
+	justify-content:space-around;
+	height:400px;
+}
+.pcrd img{
+	height:85%;
+	border-radius:10px;
+	
+}
+
+#nos{
+	width:100%;
+}
+#lançamentos{
+	display:flex;
+	justify-content:space-around;
+}
+#lançamentos img{
+	border-radius:10px;
+}
+ #pbaixos{
+	display:flex;
+	justify-content:space-around;
+	height:400px;
+}
+.melhores img{
+	height:85%;
+	border-radius:10px;
+	
+}
+
+.container img {
+    width:200px;
+	height:250px;
+	transition: all 1s ease-in;
+    
+}
+
+
+
+.produto-botao{
+	transition: all 0.5s ease-in-out;
+	background-color:black;
+	display:block;
+    opacity:1;
+    color:#e8aa20;
+    font-family: 'Bebas Neue', cursive;
+    font-size:30px;
+    width:100%;
+    text-align:center;
+    border:3px solid #e8aa20;
+    border-radius:5px;
+    text-decoration:none;
+    padding:5px 10px;
+    box-sizing:border-box;
+    margin-top:15px;
+	font-family: "Minha Fonte";
+}
+.produto-botao:hover{
+	width: 110%;
+	font-size: 38px;
+
+}
+.container img {
+ width:30vh;
+ height:20vh;
+ object-fit:cover;
+}
+.banners {
+ border-radius:100%;
+}
+.footer.footer{
+	height:100%
+	background-color:000;
+	position:relative;
+	
+}
+.footer.footer.container{
+	display:grid;
+	
+	
+}
+.footer.footer.container div{
+	
+	flex-grow:1;
+	flex-basis:0;
+	padding:3rem 0.9rem;
+	
+}
+
+.footer p{
+	font-size:15px;
+	color:blue;
+	
+}
+#rodape{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+}
+.contato{
+	align-self: center;
+}
+
+.redes1{
+	
+	width:300px;
+    height:80px;
+	padding:10px;
+    display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	
+}
+.redes1 img{
+	max-width:100%;
+}
+
+.section-lancamento{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-top: 100px ;
+}
+.section-melhores{
+	margin-top: 100px;
+}
+#lancamentos{
+	display: flex;
+	justify-content: space-around;
+}
+.anima img:hover{
+	width: 105%;
+	height: 105%;
+}
+.anima img{
+	transition: all 0.6s ease-in-out;
+}
+h1{
+	font-family: "Minha Fonte";
+	font-weight: 400;
+}
+.div-container{
+	display: flex;
+	justify-content: space-around;
+}
+.div-top{
+	margin-top: 200px;
+}
+
